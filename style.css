@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    height: max-content;
+    zoom: normal;
+    cursor: default;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
