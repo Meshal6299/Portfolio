@@ -12,3 +12,36 @@ html {
 ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topbar{  
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 1px;
+    background-color: #88888834;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+.links{
+    height: 48px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: #000000;
+}
+.links a:hover{
+    text-shadow: 0 0 5px black;
+}
