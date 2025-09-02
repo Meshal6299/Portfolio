@@ -45,3 +45,53 @@ html {
 .links a:hover{
     text-shadow: 0 0 5px black;
 }
+.about{
+    width: calc(100% - 1px);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 10px;
+}
+.image img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.345);
+    width: 288px;
+}   
+.me{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.me p{
+    font-size: 17px;
+}
+.me .btns{
+    display: flex;
+    gap: 20px;
+}
+.btns img{
+    height: 20px;
+    margin-bottom: 2px;
+}
+.btn1, .btn2{
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.444); 
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 155px;
+    color: #000000b5;
+    background-color: rgb(250, 250, 250);
+}
+.btn1:hover, .btn2:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px;
+}
