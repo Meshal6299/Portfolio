@@ -16,9 +16,10 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: antiquewhite;
 }
 .topbar{  
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -31,6 +32,7 @@ html {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 1000;
+    font-size: 1.3rem;
 }
 .links{
     height: 48px;
@@ -52,7 +54,7 @@ html {
     align-items: center;
     justify-content: center;
     gap: 60px;
-    padding-bottom: 10px;
+    padding-top: 60px;
 }
 .image img{
     border-radius: 10px;
@@ -77,6 +79,9 @@ html {
     height: 20px;
     margin-bottom: 2px;
 }
+.btns a{
+    text-decoration: none;
+}
 .btn1, .btn2{
     padding: 8px;
     border-radius: 3px;
@@ -96,13 +101,13 @@ html {
     box-shadow: 0 0 2px;
 }
 .experience{
-    padding-top: 25px;
+    padding-top: 75px;
     height: fit-content;
     width: calc(100% - 1px);
     display: flex;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 .experience h1{
     font-size: 45px;
@@ -195,9 +200,4 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.breaker{
-    background-color: #000000;
-    width: 80%;
-    height: 1px;
 }
