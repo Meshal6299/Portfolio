@@ -2,7 +2,7 @@
 
 Hi there 👋  
 
-This repository is my personal **web development portfolio**.  
+This repository is my personal portfolio.  
 I’m currently on a journey to **regain and sharpen my web skills**, and this project is where I’ll practice, build, and showcase what I’m learning along the way.  
 
 ---
@@ -15,17 +15,17 @@ I’m currently on a journey to **regain and sharpen my web skills**, and this p
 
 ---
 
-## 🛠️ Tech Stack (in progress)
-- **Frontend:** HTML, CSS, JavaScript, React  
-- **Styling:** TailwindCSS  
+## 🛠️ Current Tech Stack (in progress)
+- **Frontend:** HTML, JavaScript
+- **Styling:** CSS
 - **Other Tools:** Git & GitHub  
 
 ---
 
 ## 📌 Current Status
 This portfolio is **a work in progress**.  
-I’ll keep updating it as I rebuild my confidence and learn new skills.  
+I’ll keep updating it as I rebuild my confidence and learn new skills and I'll replace the random gibberish to real stuff.  
 
 ---
 
-⭐ Thanks for visiting my portfolio repo! Stay tuned as it grows.  
+⭐ Stay Tuned.  
