@@ -8,7 +8,6 @@
     --topbar-bg: rgba(255, 255, 255, 0.6); /* Topbar background */
     --switch-bg: white;
 }
-
 body {
     margin: 0px;
     height: max-content;
@@ -19,22 +18,29 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-
+/* Dark mode styles */
+body.dark-mode {
+    --bg-color: #1a1a1a; /* Dark background */
+    --text-color: #e0e0e0; /* Light text */
+    --border-color: #555555; /* Dark border */
+    --card-bg: #2a2a2a; /* Dark cards */
+    --shadow-color: rgba(255, 255, 255, 0.1); /* Light shadow */
+    --hover-shadow: #555555; /* Dark hover shadow */
+    --topbar-bg: rgba(42, 42, 42, 0.8); /* Dark topbar */
+    --switch-bg: black;
+}
 html {
     scroll-behavior: smooth;
 }
-
 ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
 }
-
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--bg-color);
 }
-
 .topbar {
     height: 70px;
     display: flex;
@@ -51,23 +57,19 @@ html {
     z-index: 1000;
     font-size: 1.3rem;
 }
-
 .links {
     height: 48px;
     display: flex;
     gap: 30px;
     align-items: center;
 }
-
 .links a {
     text-decoration: none;
     color: var(--text-color);
 }
-
 .links a:hover {
     text-shadow: 0 0 5px var(--text-color);
 }
-
 .about {
     width: calc(100% - 1px);
     height: 650px;
@@ -78,13 +80,11 @@ html {
     padding-top: 60px;
     background-color: var(--bg-color);
 }
-
 .image img {
     border-radius: 10px;
     box-shadow: 0px 5px 10px var(--shadow-color);
     width: 288px;
 }
-
 .me {
     height: 100%;
     width: 40%;
@@ -92,26 +92,21 @@ html {
     flex-direction: column;
     justify-content: center;
 }
-
 .me p {
     font-size: 17px;
     color: var(--text-color);
 }
-
 .me .btns {
     display: flex;
     gap: 20px;
 }
-
 .btns img {
     height: 20px;
     margin-bottom: 2px;
 }
-
 .btns a {
     text-decoration: none;
 }
-
 .btn1, .btn2 {
     padding: 8px;
     border-radius: 3px;
@@ -126,12 +121,10 @@ html {
     color: var(--text-color);
     background-color: var(--card-bg);
 }
-
 .btn1:hover, .btn2:hover {
     cursor: pointer;
     box-shadow: 0 0 2px var(--hover-shadow);
 }
-
 .experience {
     padding-top: 75px;
     height: fit-content;
@@ -142,12 +135,10 @@ html {
     padding-bottom: 40px;
     background-color: var(--bg-color);
 }
-
 .experience h1 {
     font-size: 45px;
     color: var(--text-color);
 }
-
 .timeline {
     width: 100%;
     height: 80%;
@@ -156,7 +147,6 @@ html {
     align-items: center;
     justify-content: center;
 }
-
 .timeline .line {
     height: 750px;
     width: 0px;
@@ -165,7 +155,6 @@ html {
     flex-direction: column;
     justify-content: space-around;
 }
-
 .line > div {
     height: 20px;
     width: 20px;
@@ -174,12 +163,10 @@ html {
     position: relative;
     right: 10px;
 }
-
 .line h3 {
     font-size: 35px;
     color: var(--text-color);
 }
-
 .line .details {
     height: fit-content;
     width: 500px;
@@ -187,27 +174,22 @@ html {
     bottom: 80px;
     color: var(--text-color);
 }
-
 .line .left {
     left: 50px;
     text-align: left;
 }
-
 .line .right {
     right: 530px;
     text-align: right;
 }
-
 .line p {
     font-size: 20px;
     color: var(--text-color);
 }
-
 .projects h1 {
     font-size: 45px;
     color: var(--text-color);
 }
-
 .projects {
     width: 100%;
     height: fit-content;
@@ -218,7 +200,6 @@ html {
     padding-top: 65px;
     background-color: var(--bg-color);
 }
-
 .project-container {
     width: 90%;
     gap: 45px;
@@ -226,7 +207,6 @@ html {
     flex-direction: column;
     align-items: center;
 }
-
 .project-block {
     height: fit-content;
     border-radius: 12px;
@@ -238,18 +218,15 @@ html {
     background-color: var(--card-bg);
     color: var(--text-color);
 }
-
 .project-block img {
     height: 425px;
 }
-
 .tools {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     padding: 10px;
 }
-
 .tool {
     height: 25px;
     padding: 5px;
@@ -264,7 +241,6 @@ html {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-
 #theme-switch {
     height: 30px;
     border-radius: 20px;
@@ -277,30 +253,4 @@ html {
 }
 #theme-switch img {
     height: 20px;
-}
-#theme-icon {
-    transition: opacity 0.3s ease;
-}
-/* Dark mode styles */
-body.dark-mode {
-    --bg-color: #1a1a1a; /* Dark background */
-    --text-color: #e0e0e0; /* Light text */
-    --border-color: #555555; /* Dark border */
-    --card-bg: #2a2a2a; /* Dark cards */
-    --shadow-color: rgba(255, 255, 255, 0.1); /* Light shadow */
-    --hover-shadow: #555555; /* Dark hover shadow */
-    --topbar-bg: rgba(42, 42, 42, 0.8); /* Dark topbar */
-    --switch-bg: black;
-}
-
-body, 
-.main, 
-.topbar, 
-.about, 
-.experience, 
-.projects, 
-.project-block, 
-.tool,
-#theme-switch {
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease,;
 }

@@ -6,13 +6,13 @@ const setTheme = (theme) => {
     if (theme === 'dark') {
         body.classList.add('dark-mode');
         themeIcon.style.opacity = 0; // fade out
-        setTimeout(() => themeIcon.src = "./images/L2D.png", 100);
-        setTimeout(() => themeIcon.style.opacity = 1, 150);
+        setTimeout(() => themeIcon.src = "./images/L2D.png");
+        setTimeout(() => themeIcon.style.opacity = 1);
     } else {
         body.classList.remove('dark-mode');
         themeIcon.style.opacity = 0;
-        setTimeout(() => themeIcon.src = "./images/D2L.png", 100);
-        setTimeout(() => themeIcon.style.opacity = 1, 150);
+        setTimeout(() => themeIcon.src = "./images/D2L.png");
+        setTimeout(() => themeIcon.style.opacity = 1);
     }
     localStorage.setItem('theme', theme);
 };
